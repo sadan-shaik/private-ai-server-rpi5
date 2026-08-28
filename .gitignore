@@ -1,0 +1,40 @@
+# Environment files
+
+.env
+.env.*
+!.env.example
+
+# Secrets and credentials
+
+secrets/
+*.key
+*.pem
+*.token
+credentials.json
+
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+
+*.log
+logs/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Editor files
+
+.vscode/
+.idea/
+
+# Temporary files
+
+*.tmp
+*.swp
